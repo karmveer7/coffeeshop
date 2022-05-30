@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    #add_to_bucket{
+      display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+    }
+    #add_to_bucket > div{
+       
+      height: 300px;
+        width: 40%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin-left: 12%;
+        text-align: center;
+        margin-bottom: 40px;
+
+    }
+    #add_to_bucket>div>img{
+        height: 150px;
+        width: 100%;
+      }
+  </style>
+
+  <body>
+    <div id="total-div">
+      <h3 id="">
+        <!--Show bucket total here, do not add anything only Total value. Not even "Total - 1200Rs" but like this "1200" -->
+      </h3>
+    </div>
+    <div id="add_to_bucket">
+      <!--Show all coffee added to bucket here-->
+      <!-- add an remove button to each coffee so that you can remove that item from bucket, give the button HTML id as 'remove_coffee' -->
+    </div>
+
+    <!-- checkout link  -->
+  </body>
+</html>
+<script src="./scripts/bucket.js" >
+
+</script>
